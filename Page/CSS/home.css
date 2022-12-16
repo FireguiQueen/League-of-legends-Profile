@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{ 
+    position: relative;
+    max-height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header{
+    padding: 20px;
+    background-color: rgb(27, 26, 26, 0.3);
+    
+}
+header nav{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul{
+    display: flex;
+    gap: 35px; 
+    list-style-type: square;
+    color:aliceblue
+}
+
+video{ 
+    position: absolute;
+    z-index: -22;
+    min-width: 100%;
+    min-height: 100vh;
+    top: 0;
+
+}
+
+
