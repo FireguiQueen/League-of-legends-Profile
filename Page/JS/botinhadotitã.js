@@ -1,4 +1,4 @@
-function menu(){
+function CreatMenu(){
     return`
     <nav> 
         <ul> 
@@ -17,7 +17,5 @@ function menu(){
 }
 
 
-
-
 var cabeçalho = document.getElementsByTagName('header')[0];
-cabeçalho.innerHTML = menu()
+cabeçalho.innerHTML = CreatMenu()
