@@ -17,7 +17,7 @@ header{
     padding: 20px;
     background-color: rgb(27, 26, 26, 0.3);
     padding-left: 40px;
-    padding-right: 200px;    
+    padding-right: 200px;   
 }
 header nav{ 
     display: flex;
@@ -31,12 +31,12 @@ header nav ul{
 }
 
 header nav li{
-    font-size: larger;
+    font-size: 30px;
     list-style: none;
 }
 
 header img{
-    width: 55px;
+    width: 62px;
 }
 
 header a{
@@ -66,4 +66,15 @@ video{
     width: 12px;
     height: 12px;
     transform: rotate(45deg);
+}
+
+
+
+#welcome{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    font-size: xx-large;
 }
