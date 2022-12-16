@@ -31,7 +31,7 @@ header nav ul{
 }
 
 header nav li{
-    font-size: 30px;
+    font-size: 25px;
     list-style: none;
 }
 
@@ -44,7 +44,7 @@ header a{
 }
 
 header nav ul li + li{
-
+ /* Já já entra algo aqui, viu?! Não vai ficar aquelas tags <span> no index não!! */ 
 }
 
 
