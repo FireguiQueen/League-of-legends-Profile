@@ -37,39 +37,43 @@ header nav li{
     font-size: 25px;
     list-style: none;
 }
+header .square{ 
+    background-color: rgb(234, 120, 14, .6);
+    width: 12px;
+    height: 12px;
+    transform: rotate(50deg);
+}
 
-header img{
+
+header nav ul #logo{
     width: 62px;
 }
 
 header a{
     text-decoration: none;
-}
-
-header nav ul li + li{
- /* Já já entra algo aqui, viu?! Não vai ficar aquelas tags <span> no index não!! */ 
+    transition: width 2s alternate;
 }
 
 
 
 
+/* ------------------------------------------------------------------------------------------- */ 
+/*              Corpo               */
 
 
 
-.square{ 
-    background-color: rgb(234, 120, 14, .6);
-    width: 12px;
-    height: 12px;
-    transform: rotate(45deg);
+
+/* Animações */
+header a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgb(146, 232, 203);
+    display: block;
+    margin: auto;
+    transition: .17s width linear;
 }
-
-
-
-#welcome{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80vh;
-    font-size: xx-large;
+header a:hover::after{
+    width: 75%;
+    transition: .2s width;
 }
