@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    color: aliceblue;
+    box-sizing: border-box;
 }
 body{ 
     position: relative;
@@ -21,13 +22,32 @@ header{
 header nav{ 
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+header #logo img{
+    width: 55px;
+}
+header #menu img{
+
+
+}
+header a{
+    text-decoration: none;
 }
 
 header nav ul{
     display: flex;
-    gap: 35px; 
-    list-style-type: square;
     color:aliceblue
+}
+
+#menu{
+    margin-left: 800px;
+    margin-right: 200px;
+}
+header nav li{
+    font-size: larger;
+    list-style: none;
 }
 
 video{ 
