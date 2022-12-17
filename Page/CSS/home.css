@@ -111,6 +111,8 @@ header a:hover::after{
     0%{
         opacity: 0;
         background-position: 0% 50%;
+        filter: blur(90px);
+
     } 50%{
         opacity: .5;
         background-position: 100% 50%;
