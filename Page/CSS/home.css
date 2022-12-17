@@ -14,7 +14,7 @@ body{
     max-height: 100vh;
     max-width: 100%;
 
-    animation: appear 6s;
+    animation: appear 7s ease-in-out;
 
 }
 
