@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: aliceblue;
+    text-decoration: none;
     box-sizing: border-box;
 }
 body{ 
@@ -50,7 +51,6 @@ header nav ul #logo{
 }
 
 header a{
-    text-decoration: none;
     transition: width 2s alternate;
 }
 
