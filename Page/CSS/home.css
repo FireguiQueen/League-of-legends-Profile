@@ -65,11 +65,11 @@ header nav ul li + li{
 /* Fundo do website */ 
 video{ 
     position: absolute;
-    z-index: -22;
+    z-index: -1;
     min-width: 100%;
     min-height: 100vh;
     top: 0;
-    animation: appear 2s ease-in-out;
+    animation: appear 1.5s ease-in-out;
 }
 
 
@@ -106,13 +106,12 @@ header a:hover::after{
 
 
 @keyframes appear {
-    0%{
+    from{
         opacity: 0;
         filter: blur(100px);
-
-    } 50%{
-        opacity: .5;
-    } 100%{
+    } to{
         opacity: 1;
+        filter: blur(0px);
+
     }
 }
