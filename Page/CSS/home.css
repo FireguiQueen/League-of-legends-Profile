@@ -13,9 +13,6 @@ body{
     position: relative;
     max-height: 100vh;
     max-width: 100%;
-
-    animation: appear 7s ease-in-out;
-
 }
 
 header{
@@ -72,6 +69,7 @@ video{
     min-width: 100%;
     min-height: 100vh;
     top: 0;
+    animation: appear 2s ease-in-out;
 }
 
 
