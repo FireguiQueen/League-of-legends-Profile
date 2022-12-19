@@ -71,7 +71,7 @@ video{
     top: 0;
     animation: appear 1.5s ease-in-out;
 
-    background-position-y: 40px;
+    background-position-y: 500px;
     background-position-x: center;
 }
 
