@@ -70,6 +70,9 @@ video{
     min-height: 100vh;
     top: 0;
     animation: appear 1.5s ease-in-out;
+
+    background-position-y: 40px;
+    background-position-x: center;
 }
 
 
