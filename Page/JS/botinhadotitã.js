@@ -18,26 +18,25 @@ function CreatMenu(){
 }
 
 
-var cabeçalho = document.getElementsByTagName('header')[0];
-cabeçalho.innerHTML = CreatMenu()
-
-
-
-
 function CreatChampionCard(champ){
     return`
     <div class="champion-card">
         <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
-            <img src="./Page/Others/Champs/${champ}">
+            <img src="./Page/Others/Champs/${champ}.jpg">
             <h2 id="macaco">${champ}</h2> 
         </a>
     </div>
     `
 }
 
+
+
+var cabeçalho = document.getElementsByTagName('header')[0];
+cabeçalho.innerHTML = CreatMenu()
+
 var campeoes = document.getElementById('mymains');
 campeoes.innerHTML = 
-CreatChampionCard('kassadin') + 
+CreatChampionCard('kassadin')+ 
 CreatChampionCard('akali') + 
 CreatChampionCard('ekko') + 
 CreatChampionCard('kled') + 
