@@ -19,3 +19,32 @@ function CreatMenu(){
 
 var cabeçalho = document.getElementsByTagName('header')[0];
 cabeçalho.innerHTML = CreatMenu()
+
+
+
+
+function CreatChampionCard(champ){
+    return`
+    <div class="champion-card">
+        <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
+        <img src="./Page/Others/Champs/${champ}.jpg">
+        <h2>${champ}</h2> 
+        </a>
+    </div>
+    `
+}
+
+var campeoes = document.getElementById('mymains');
+campeoes.innerHTML = 
+CreatChampionCard('kassadin') + 
+CreatChampionCard('akali') + 
+CreatChampionCard('ekko') + 
+CreatChampionCard('kled') + 
+CreatChampionCard('neeko') + 
+CreatChampionCard('caitlyn') + 
+CreatChampionCard('fizz') + 
+CreatChampionCard('veigar') 
+
+
+
+
