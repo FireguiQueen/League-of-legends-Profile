@@ -6,15 +6,14 @@ function CreatMenu(){
             <li><a href="https://www.op.gg/summoners/br/FireguiQueen" alt="perfil no op.gg" class="infogeral">op.gg</a></li>
         </ul>
 
-    <ul id="menu"> 
-        <li><a href="./about.html" class="sublinhado">Sobre mim</a></li>
-        <span class="square"> </span>
-        <li><a href="./playing.html" class="sublinhado">A partida</a></li>
-        <span class="square"> </span>
-        <li><a href="./mains.html" class="sublinhado">Mains </a></li>
-
-    </ul>
-</nav>
+        <ul id="menu"> 
+            <li><a href="./about.html" class="sublinhado">Sobre mim</a></li>
+            <span class="square"> </span>
+            <li><a href="./playing.html" class="sublinhado">A partida</a></li>
+            <span class="square"> </span>
+            <li><a href="./mains.html" class="sublinhado">Mains </a></li>
+        </ul>
+    </nav>
     `
 }
 
@@ -28,7 +27,7 @@ cabeçalho.innerHTML = CreatMenu()
 function CreatChampionCard(champ){
     return`
     <div class="champion-card">
-        <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
+        <a target="_blank" href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
         <img src="./Page/Others/Champs/${champ}.jpg">
         <h2>${champ}</h2> 
         </a>
