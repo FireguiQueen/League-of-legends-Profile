@@ -23,7 +23,7 @@ function CreatChampionCard(champ){
     return`
     <div class="champion-card" style="opacity: 0; filter:blue(100px); animation: appear .5s linear forwards ${atraso}s";>
         <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
-            <img src="./Page/Others/Champs/${champ}.jpg">
+            <img alt="${champ}'s image" src="./Page/Others/Champs/${champ}.jpg">
             <h2 id="macaco">${champ}</h2> 
         </a>
     </div>
