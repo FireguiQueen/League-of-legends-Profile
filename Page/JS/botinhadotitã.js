@@ -3,7 +3,7 @@ function CreatMenu(){
     <nav> 
         <ul> 
             <li><a href="./index.html" class="sublinhado"><img id="logo" src="./Page/Others/Logo/League of legends.svg"> </a></li> 
-            <li><a href="https://www.op.gg/summoners/br/FireguiQueen" alt="perfil no op.gg" class="infogeral">op.gg</a></li>
+            <li><a target="_blank" href="https://www.op.gg/summoners/br/FireguiQueen" alt="perfil no op.gg" class="infogeral">op.gg</a></li>
         </ul>
 
         <ul id="menu"> 
@@ -27,9 +27,9 @@ cabeçalho.innerHTML = CreatMenu()
 function CreatChampionCard(champ){
     return`
     <div class="champion-card">
-        <a target="_blank" href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
-        <img src="./Page/Others/Champs/${champ}.jpg">
-        <h2>${champ}</h2> 
+        <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
+            <img src="./Page/Others/Champs/${champ}.jpg">
+            <h2 id="macaco">${champ}</h2> 
         </a>
     </div>
     `
