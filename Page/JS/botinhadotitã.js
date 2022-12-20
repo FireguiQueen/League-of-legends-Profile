@@ -28,7 +28,7 @@ function CreatChampionCard(champ){
     return`
     <div class="champion-card">
         <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
-            <img src="./Page/Others/Champs/${champ}.jpg">
+            <img src="./Page/Others/Champs/${champ}">
             <h2 id="macaco">${champ}</h2> 
         </a>
     </div>
