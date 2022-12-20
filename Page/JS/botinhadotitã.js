@@ -2,15 +2,17 @@ function CreatMenu(){
     return`
     <nav> 
         <ul> 
-            <li><a href="./index.html"><img id="logo" src="./Page/Others/Logo/League of legends.svg"> </a></li> 
+            <li><a href="./index.html" class="sublinhado"><img id="logo" src="./Page/Others/Logo/League of legends.svg"> </a></li> 
+            <li><a href="https://www.op.gg/summoners/br/FireguiQueen" alt="perfil no op.gg" class="infogeral">op.gg</a></li>
         </ul>
 
     <ul id="menu"> 
-        <li><a href="./about.html">Sobre mim  </a></li>
+        <li><a href="./about.html" class="sublinhado">Sobre mim</a></li>
         <span class="square"> </span>
-        <li><a href="./playing.html">Durante o game </a></li>
+        <li><a href="./playing.html" class="sublinhado">A partida</a></li>
         <span class="square"> </span>
-        <li><a href="./mains.html">Mains </a></li>
+        <li><a href="./mains.html" class="sublinhado">Mains </a></li>
+
     </ul>
 </nav>
     `

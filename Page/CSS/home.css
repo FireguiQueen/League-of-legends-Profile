@@ -32,7 +32,7 @@ header nav ul{
     gap: 35px; 
 }
 
-header nav li{
+header nav ul li{
     font-size: 25px;
     list-style: none;
 }
@@ -56,6 +56,11 @@ header nav ul li + li{
  /* Já já entra algo aqui, viu?! Não vai ficar aquelas tags <span> no index não!! */ 
 }
 
+.infogeral{
+    color:rgba(198, 156, 106, 0.759);
+    font-size: 20px;
+
+}
 
 
 /* ------------------------------------------------------------------------------------------- */ 
@@ -78,19 +83,11 @@ video{
 
 
 
-#welcome{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80vh;
-    font-size: xx-large;
-}
+/*              Animações               */
 
 
-
-/* Animações */
-header a::after{
+/* Sublinhado */
+header a.sublinhado::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -98,10 +95,8 @@ header a::after{
     display: block;
     margin: auto;
     transition: .17s width linear;
-
-
-}
-header a:hover::after{
+} 
+header a.sublinhado:hover::after{
     width: 75%;
     transition: .2s width;
 }
