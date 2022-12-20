@@ -17,10 +17,11 @@ function CreatMenu(){
     `
 }
 
-
+let atraso = 0;
 function CreatChampionCard(champ){
+    atraso += 0.14;
     return`
-    <div class="champion-card">
+    <div class="champion-card" style="opacity: 0; filter:blue(100px); animation: appear .5s linear forwards ${atraso}s";>
         <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
             <img src="./Page/Others/Champs/${champ}.jpg">
             <h2 id="macaco">${champ}</h2> 
