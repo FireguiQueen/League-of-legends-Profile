@@ -69,25 +69,27 @@ header a{
 }
 
 
+
 /* ------------------------------------------------------------------------------------------- */ 
 /*              Corpo               */
 
 #mymains{
     display: flex;
+    gap: 30px;  
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
+
+    margin-inline: auto;
     height: 100%;
     width: 80%;
-    margin-inline: auto;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    gap: 30px;  
-
 }
 
 .champion-card a{
+    background-color: rgb(6, 28, 37);
+
     opacity: 0;
     animation: appear .1s forwards;
-
 
     box-sizing: border-box;
     cursor: pointer;
@@ -97,7 +99,6 @@ header a{
     letter-spacing: 2.3px;
     width: fit-content;
     height: fit-content;
-    background-color: rgb(6, 28, 37);
     border-radius: 0px 11% 0px 0px;
     overflow: hidden;
 

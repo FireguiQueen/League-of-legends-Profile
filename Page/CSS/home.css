@@ -2,30 +2,33 @@
     margin: 0;
     padding: 0;
     color: aliceblue;
+    text-decoration: none;
     box-sizing: border-box;
 }
 body{ 
-    background-repeat: no-repeat;
     background-image: linear-gradient(45deg, rgb(216, 216, 216), rgb(251, 251, 251));
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
-
-    position: relative;
     max-height: 100vh;
     max-width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 header{
-    padding: 20px;
     background-color: rgb(27, 26, 26, 0.3);
+    padding: 20px;
     padding-left: 40px;
     padding-right: 200px;   
+    margin-bottom: 50px;
 }
+
 header nav{ 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
+
 header nav ul{
     display: flex;
     align-items: center;
@@ -75,11 +78,43 @@ video{
     min-height: 100vh;
     top: 0;
     animation: appear 1.5s ease-in-out;
-
     background-position-y: 20%;
     background-position-x: center;
 }
 
+
+
+section{
+    width: 50%;
+    margin-inline: auto;
+    height: 100%;
+    text-align: center;
+    border: 1px solid rgb(45, 44, 44);
+    background-color: rgba(25, 24, 24, 0.7);
+    border-radius: 13px;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about-me h2{
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 14px 4px;
+    font-size: 35px;
+}
+.about-me p{ 
+    color: rgb(220, 218, 218);
+    word-spacing: 4.3px;
+    font-size: 23px;
+    font-weight: 550;
+    margin-bottom: 52px;
+}
+
+.about-me img{
+    width: 520px;
+    height: 520px;
+    border-radius: 600%;
+}
 
 
 
