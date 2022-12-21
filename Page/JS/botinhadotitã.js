@@ -9,7 +9,7 @@ function CreatMenu(){
         <ul id="menu"> 
             <li><a href="./about.html" class="sublinhado">Sobre mim</a></li>
             <span class="square"> </span>
-            <li><a href="./playing.html" class="sublinhado">A partida</a></li>
+            <li><a href="./playing.html" class="sublinhado">Partida</a></li>
             <span class="square"> </span>
             <li><a href="./mains.html" class="sublinhado">Mains </a></li>
         </ul>
