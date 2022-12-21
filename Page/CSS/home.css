@@ -85,9 +85,12 @@ video{
 
 
 section{
-    width: 50%;
+    display: flex;
+    gap: 30px;
+    width: 80%;
     margin-inline: auto;
-    height: 100%;
+    height: fit-content;
+    overflow: hidden;
     text-align: center;
     border: 1px solid rgb(45, 44, 44);
     background-color: rgba(25, 24, 24, 0.7);
@@ -96,6 +99,7 @@ section{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
 
 .about-me h2{
     padding-top: 14px;
@@ -112,9 +116,7 @@ section{
 }
 
 .about-me img{
-    width: 520px;
-    height: 520px;
-    border-radius: 600%;
+
 }
 
 .about-me p + h2{
