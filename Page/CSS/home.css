@@ -20,7 +20,7 @@ header{
     padding: 20px;
     padding-left: 40px;
     padding-right: 200px;   
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 header nav{ 
@@ -62,7 +62,6 @@ header nav ul li + li{
 .infogeral{
     color:rgba(198, 156, 106, 0.759);
     font-size: 20px;
-
 }
 
 
@@ -87,22 +86,20 @@ video{
 section{
     display: flex;
     gap: 30px;
-    width: 80%;
-    margin-inline: auto;
+    width: 90%;
     height: fit-content;
-    overflow: hidden;
+    margin-inline: auto;
     text-align: center;
     border: 1px solid rgb(45, 44, 44);
-    background-color: rgba(25, 24, 24, 0.7);
+    background-image: linear-gradient(45deg, rgb(69, 68, 68, 0.5), rgb(27, 27, 43));
     border-radius: 13px;
-    padding: 40px;
+    padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 
 .about-me h2{
-    padding-top: 14px;
     color: rgb(255, 255, 255);
     margin: 0px 0px 14px 4px;
     font-size: 35px;
@@ -116,12 +113,14 @@ section{
 }
 
 .about-me img{
-
+    border-radius: 20px;
 }
 
 .about-me p + h2{
     border-top: 1px solid rgb(55, 53, 53);
     border-radius: 7px;
+    padding-top: 20px;
+
 }
 
 
@@ -157,7 +156,7 @@ header a.sublinhado:hover::after{
 }
 
 
-
+    x
 p{ 
     color: rgba(0, 0, 0, 0.446);
 }
