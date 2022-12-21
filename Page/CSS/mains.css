@@ -5,6 +5,8 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+
 body{ 
     background-image: linear-gradient(47deg, rgb(224, 224, 227), rgb(29, 21, 22));
     background-repeat: no-repeat;
@@ -12,42 +14,43 @@ body{
     height: 100vh;
     width: 100%;
 
-    position: relative;
     max-height: 100vh;
     max-width: 100%;
     overflow: hidden;
-    background-size: 400%;
+    background-size: 600%;
     animation: posicao 14s alternate infinite;
 
 }
 
 header{
-    padding: 20px;
     background-color: rgb(27, 26, 26, 0.3);
+    padding: 20px;
     padding-left: 40px;
     padding-right: 200px;   
     margin-bottom: 100px;
 }
+
 header nav{ 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
+
 header nav ul{
     display: flex;
-    align-items: center;
     gap: 29px; 
+    align-items: center;
 }
 
 header nav li{
-    font-size: 25px;
     list-style: none;
+    font-size: 25px;
 }
 header .square{ 
     background-color: rgb(234, 120, 14, .6);
-    width: 12px;
-    height: 12px;
     transform: rotate(50deg);
+    height: 12px;
+    width: 12px;
 }
 
 
@@ -60,6 +63,10 @@ header a{
 }
 
 
+.infogeral{
+    color:rgba(198, 156, 106, 0.759);
+    font-size: 20px;
+}
 
 
 /* ------------------------------------------------------------------------------------------- */ 
@@ -79,7 +86,7 @@ header a{
 
 .champion-card a{
     opacity: 0;
-    animation: appear .5s forwards;
+    animation: appear .1s forwards;
 
 
     box-sizing: border-box;
