@@ -98,6 +98,7 @@ section{
 }
 
 .about-me h2{
+    padding-top: 14px;
     color: rgb(255, 255, 255);
     margin: 0px 0px 14px 4px;
     font-size: 35px;
@@ -107,7 +108,7 @@ section{
     word-spacing: 4.3px;
     font-size: 23px;
     font-weight: 550;
-    margin-bottom: 52px;
+    margin-bottom: 32px;
 }
 
 .about-me img{
@@ -116,6 +117,10 @@ section{
     border-radius: 600%;
 }
 
+.about-me p + h2{
+    border-top: 1px solid rgb(55, 53, 53);
+    border-radius: 7px;
+}
 
 
 /*              Animações               */
