@@ -86,8 +86,8 @@ video{
 section{
     display: flex;
     gap: 30px;
-    width: 90%;
-    height: fit-content;
+    width: 80%;
+    max-height: fit-content;
     margin-inline: auto;
     text-align: center;
     border: 1px solid rgb(45, 44, 44);
@@ -95,16 +95,20 @@ section{
     border-radius: 13px;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section #inf{
+    overflow: auto;
+    height: 710px;
+    padding-right: 20px;
 
 }
 
-
-.about-me h2{
+#about-me h2{
     color: rgb(255, 255, 255);
     margin: 0px 0px 14px 4px;
     font-size: 35px;
 }
-.about-me p{ 
+#about-me .description{ 
     color: rgb(220, 218, 218);
     word-spacing: 4.3px;
     font-size: 23px;
@@ -112,16 +116,46 @@ section{
     margin-bottom: 32px;
 }
 
-.about-me img{
-    border-radius: 20px;
-}
 
-.about-me p + h2{
+
+#about-me p + h2{
     border-top: 1px solid rgb(55, 53, 53);
     border-radius: 7px;
     padding-top: 20px;
 
 }
+
+#foto{
+    background-image: url(../Others/Icons/Singed.jpg);
+    border-radius: 1px;
+    background-attachment: fixed;
+    background-size:auto;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* scrollbar */ 
+    ::-webkit-scrollbar{
+        width: 10px;
+        background-color: #8b87847f;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: #27271e;
+        border: 1px solid #393932;
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-button{
+        background-color: #2b2b2135;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #3f3f3ff5;
+    }
+
+
+
+
 
 
 /*              Animações               */
@@ -156,7 +190,3 @@ header a.sublinhado:hover::after{
 }
 
 
-    x
-p{ 
-    color: rgba(0, 0, 0, 0.446);
-}

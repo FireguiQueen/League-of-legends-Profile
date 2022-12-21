@@ -18,7 +18,7 @@ body{
     max-width: 100%;
     overflow: hidden;
     background-size: 400%;
-    animation: posicao 14s alternate infinite;
+    animation: posicao 10s alternate infinite;
 
 }
 
