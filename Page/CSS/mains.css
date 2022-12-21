@@ -38,8 +38,8 @@ header nav{
 
 header nav ul{
     display: flex;
-    gap: 29px; 
     align-items: center;
+    gap: 32px; 
 }
 
 header nav li{

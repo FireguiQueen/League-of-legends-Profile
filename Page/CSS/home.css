@@ -32,7 +32,7 @@ header nav{
 header nav ul{
     display: flex;
     align-items: center;
-    gap: 35px; 
+    gap: 32px; 
 }
 
 header nav ul li{
