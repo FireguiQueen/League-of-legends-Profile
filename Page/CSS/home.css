@@ -125,15 +125,10 @@ section #inf{
 
 }
 
-#foto{
-    background-image: url(../Others/Icons/Singed.jpg);
-    border-radius: 1px;
-    background-attachment: fixed;
-    background-size:auto;
-    width: 100%;
-    background-repeat: no-repeat;
-
+#about-me img{ 
+    border-radius: 14px;
 }
+
 
 /* scrollbar */ 
     ::-webkit-scrollbar{
@@ -152,8 +147,6 @@ section #inf{
     ::-webkit-scrollbar-thumb:hover {
         background-color: #3f3f3ff5;
     }
-
-
 
 
 
