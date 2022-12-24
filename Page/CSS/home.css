@@ -10,6 +10,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    overflow: hidden;
+    background-size: cover;
 }
 
 header{
@@ -84,7 +86,7 @@ section{
     display: flex;
     gap: 30px;
     width: 80%;
-    max-height: fit-content;
+    max-height: 800px;
     margin-inline: auto;
     text-align: center;
     border: 1px solid rgb(45, 44, 44);
@@ -128,22 +130,22 @@ section #inf{
 
 
 /* scrollbar */ 
-    ::-webkit-scrollbar{
-        width: 10px;
-        background-color: #8b87847f;
-    }
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #8b87847f;
+}
     
-    ::-webkit-scrollbar-thumb{
-        background-color: #27271e;
-        border: 1px solid #393932;
-        border-radius: 4px;
-    }
-    ::-webkit-scrollbar-button{
-        background-color: #2b2b2135;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-        background-color: #3f3f3ff5;
-    }
+::-webkit-scrollbar-thumb{
+    background-color: #27271e;
+    border: 1px solid #393932;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-button{
+    background-color: #2b2b2135;  
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3f3f3ff5;
+}
 
 
 
@@ -180,3 +182,20 @@ header a.sublinhado:hover::after{
 }
 
 
+
+
+
+/* Responsividade */ 
+@media (max-width: 1820px){
+    body{ 
+        background-image: linear-gradient(45deg, rgb(9, 6, 34), rgb(10, 36, 81));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    video{ 
+        animation: appear 7000000s ease-in-out;
+        background-position-y: 0;
+        background-position-x: 0;
+    }
+}
