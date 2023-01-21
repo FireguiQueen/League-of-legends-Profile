@@ -165,7 +165,7 @@ header a.sublinhado::after{
 } 
 header a.sublinhado:hover::after{
     width: 75%;
-    transition: .2s width;
+    transition: width .2s;
 }
 
 
