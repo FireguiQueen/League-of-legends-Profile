@@ -18,9 +18,12 @@ function CreatMenu(){
     `
 }
 
+// Diferentes partes da página 
+const insercoes = [document.getElementById('mymains'), document.getElementsByTagName('header')[0]]
+const [inserirMain, inserirHeader] = insercoes;
+
 // inserir o header na página
-const header = document.getElementsByTagName('header')[0];
-header.innerHTML = CreatMenu()
+inserirHeader.innerHTML = CreatMenu()
 
 
 let atraso = 0;
@@ -35,15 +38,7 @@ function CreatChampionCard(champ){
     </div>
     `
 }
-
-
-
-
-let campeoes = document.getElementById('mymains');
 const mains = ['kassadin', 'akali', 'ekko', 'kled', 'neeko', 'caitlyn', 'fizz', 'veigar'];
 for(let i = 0; i < mains.length; i++){
-    campeoes.innerHTML += CreatChampionCard(mains[i])
+    inserirMain.innerHTML += CreatChampionCard(mains[i])
 }
-
-
-
