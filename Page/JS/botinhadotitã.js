@@ -1,4 +1,4 @@
-// Criar o header da página
+// Criar o layout do header
 function CreatMenu(){
     return`
     <nav> 
@@ -18,6 +18,9 @@ function CreatMenu(){
     `
 }
 
+// inserir o header na página
+const header = document.getElementsByTagName('header')[0];
+header.innerHTML = CreatMenu()
 
 
 let atraso = 0;
@@ -34,17 +37,12 @@ function CreatChampionCard(champ){
 }
 
 
-var cabeçalho = document.getElementsByTagName('header')[0];
-cabeçalho.innerHTML = CreatMenu()
-
-
 
 
 let campeoes = document.getElementById('mymains');
 const mains = ['kassadin', 'akali', 'ekko', 'kled', 'neeko', 'caitlyn', 'fizz', 'veigar'];
 for(let i = 0; i < mains.length; i++){
-    campeoes.innerHTML = CreatChampionCard(mains[i])
-
+    campeoes.innerHTML += CreatChampionCard(mains[i])
 }
 
 
