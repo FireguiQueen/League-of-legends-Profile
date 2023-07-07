@@ -1,3 +1,4 @@
+// Criar o header da página
 function CreatMenu(){
     return`
     <nav> 
@@ -16,6 +17,7 @@ function CreatMenu(){
     </nav>
     `
 }
+
 
 let atraso = 0;
 function CreatChampionCard(champ){
