@@ -19,6 +19,7 @@ function CreatMenu(){
 }
 
 
+
 let atraso = 0;
 function CreatChampionCard(champ){
     atraso += 0.14;
@@ -33,21 +34,18 @@ function CreatChampionCard(champ){
 }
 
 
-
 var cabeçalho = document.getElementsByTagName('header')[0];
 cabeçalho.innerHTML = CreatMenu()
 
-var campeoes = document.getElementById('mymains');
-campeoes.innerHTML = 
-CreatChampionCard('kassadin')+ 
-CreatChampionCard('akali') + 
-CreatChampionCard('ekko') + 
-CreatChampionCard('kled') + 
-CreatChampionCard('neeko') + 
-CreatChampionCard('caitlyn') + 
-CreatChampionCard('fizz') + 
-CreatChampionCard('veigar') 
 
+
+
+let campeoes = document.getElementById('mymains');
+const mains = ['kassadin', 'akali', 'ekko', 'kled', 'neeko', 'caitlyn', 'fizz', 'veigar'];
+for(let i = 0; i < mains.length; i++){
+    campeoes.innerHTML = CreatChampionCard(mains[i])
+
+}
 
 
 
