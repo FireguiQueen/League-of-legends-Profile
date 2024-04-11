@@ -1,4 +1,5 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     color: aliceblue;
@@ -7,7 +8,8 @@
 }
 
 
-body{ 
+body
+{
     background-image: linear-gradient(47deg, rgb(224, 224, 227), rgb(29, 21, 22));
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,11 +18,11 @@ body{
     width: 100%;
     background-size: 400%;
     animation: posicao 10s alternate infinite;
-
-
 }
 
-header{
+
+header
+{
     background-color: rgb(27, 26, 26, 0.3);
     padding: 20px;
     padding-left: 40px;
@@ -44,7 +46,9 @@ header nav li{
     list-style: none;
     font-size: 25px;
 }
-header .square{ 
+
+header .square
+{
     background-color: rgb(234, 120, 14, .6);
     transform: rotate(50deg);
     height: 12px;
@@ -52,16 +56,19 @@ header .square{
 }
 
 
-header nav ul #logo{
+header nav ul #logo
+{
     width: 62px;
 }
 
-header a{
+header a
+{
     transition: width 2s alternate;
 }
 
 
-.infogeral{
+.infogeral
+{
     color:rgba(198, 156, 106, 0.759);
     font-size: 20px;
 }
@@ -71,7 +78,8 @@ header a{
 /* ------------------------------------------------------------------------------------------- */ 
 /*              Corpo               */
 
-#mymains{
+#mymains
+{
     display: flex;
     gap: 30px;  
     flex-wrap: wrap;
@@ -83,7 +91,8 @@ header a{
     width: 80%;
 }
 
-.champion-card a{
+.champion-card a
+{
     background-color: rgb(6, 28, 37);
 
     opacity: 0;
@@ -104,7 +113,8 @@ header a{
     transition: transform 200ms;
 } 
 
-.champion-card a:hover{
+.champion-card a:hover
+{
     transform: scale(1.11);
     transition: transform 200ms;
 }

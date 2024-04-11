@@ -1,11 +1,14 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     color: aliceblue;
     text-decoration: none;
     box-sizing: border-box;
 }
-body{ 
+
+body
+{
     background-image: linear-gradient(45deg, rgb(216, 216, 216), rgb(251, 251, 251));
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +17,8 @@ body{
     background-size: cover;
 }
 
-header{
+header
+{
     background-color: rgb(27, 26, 26, 0.3);
     padding: 20px;
     padding-left: 40px;
@@ -22,34 +26,41 @@ header{
     margin-bottom: 30px;
 }
 
-header nav{ 
+header nav
+{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header nav ul{
+header nav ul
+{
     display: flex;
     align-items: center;
     gap: 32px; 
 }
 
-header nav ul li{
+header nav ul li
+{
     font-size: 25px;
     list-style: none;
 }
-header nav ul .square{ 
+
+header nav ul .square
+{
     background-color: rgb(234, 120, 14, .6);
     width: 12px;
     height: 12px;
     transform: rotate(45deg);
 }
 
-header nav ul #logo{
+header nav ul #logo
+{
     width: 62px;
 }
 
-header a{
+header a
+{
     text-decoration: none;
     transition: .2s width;
 }
@@ -58,7 +69,8 @@ header nav ul li + li{
  /* Já já entra algo aqui, viu?! Não vai ficar aquelas tags <span> no index não!! */ 
 }
 
-.infogeral{
+.infogeral
+{
     color:rgba(198, 156, 106, 0.759);
     font-size: 20px;
 }
@@ -69,7 +81,8 @@ header nav ul li + li{
 
 
 /* Fundo do website */ 
-video{ 
+video
+{
     position: absolute;
     z-index: -1;
     min-width: 100%;
@@ -79,8 +92,6 @@ video{
     background-position-y: 20%;
     background-position-x: center;
 }
-
-
 
 section{
     display: flex;
@@ -95,19 +106,24 @@ section{
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-section #inf{
+
+section #inf
+{
     overflow: auto;
-    height: 710px;
+    height: 510px;
     padding-right: 20px;
 
 }
 
-#about-me h2{
+#about-me h2
+{
     color: rgb(255, 255, 255);
     margin: 0px 0px 14px 4px;
     font-size: 35px;
 }
-#about-me .description{ 
+
+#about-me .description
+{
     color: rgb(220, 218, 218);
     word-spacing: 4.3px;
     font-size: 23px;
@@ -117,33 +133,39 @@ section #inf{
 
 
 
-#about-me p + h2{
+#about-me p + h2
+{
     border-top: 1px solid rgb(55, 53, 53);
     border-radius: 7px;
     padding-top: 20px;
 
 }
 
-#about-me img{ 
+#about-me img
+{
     border-radius: 14px;
 }
 
 
 /* scrollbar */ 
-::-webkit-scrollbar{
+::-webkit-scrollbar
+{
     width: 10px;
     background-color: #8b87847f;
 }
     
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb
+{
     background-color: #27271e;
     border: 1px solid #393932;
     border-radius: 4px;
 }
-::-webkit-scrollbar-button{
+::-webkit-scrollbar-button
+{
     background-color: #2b2b2135;  
 }
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover
+{
     background-color: #3f3f3ff5;
 }
 
@@ -152,9 +174,9 @@ section #inf{
 
 /*              Animações               */
 
-
 /* Sublinhado */
-header a.sublinhado::after{
+header a.sublinhado::after
+{
     content: '';
     width: 0%;
     height: 2px;
@@ -163,7 +185,8 @@ header a.sublinhado::after{
     margin: auto;
     transition: .17s width linear;
 } 
-header a.sublinhado:hover::after{
+header a.sublinhado:hover::after
+{
     width: 75%;
     transition: width .2s;
 }
@@ -171,16 +194,17 @@ header a.sublinhado:hover::after{
 
 
 @keyframes appear {
-    from{
+    from
+    {
         opacity: 0;
         filter: blur(100px);
-    } to{
-        opacity: 1;
-        filter: blur(0px);
+    } to
+        {
+            opacity: 1;
+            filter: blur(0px);
 
-    }
+        }
 }
-
 
 
 

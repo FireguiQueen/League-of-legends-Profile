@@ -3,7 +3,7 @@ function CreatMenu(){
     return`
     <nav> 
         <ul> 
-            <li><a href="./index.html" class=""><img id="logo" src="./Page/Others/Logo/League of legends.svg"> </a></li> 
+            <li><a href="./index.html" class=""><img id="logo" src="./src/assets/logo/League of legends.svg"> </a></li>
             <li><a target="_blank" href="https://www.op.gg/summoners/br/FireguiQueen" alt="perfil no op.gg" class="infogeral">op.gg</a></li>
         </ul>
 
@@ -32,13 +32,16 @@ function CreatChampionCard(champ){
     return`
     <div class="champion-card" style="opacity: 0; filter:blue(100px); animation: appear .5s linear forwards ${atraso}s";>
         <a href="https://www.leagueoflegends.com/pt-br/champions/${champ}/">
-            <img alt="${champ}'s image" src="./Page/Others/Champs/${champ}.jpg">
+            <img alt="${champ}'s image" src="./src/assets/champions/${champ}.jpg">
             <h2 id="macaco">${champ}</h2> 
         </a>
     </div>
     `
 }
+
+
 const mains = ['kassadin', 'akali', 'ekko', 'kled', 'neeko', 'caitlyn', 'fizz', 'veigar'];
-for(let i = 0; i < mains.length; i++){
+for(let i = 0; i < mains.length; i++)
+{
     inserirMain.innerHTML += CreatChampionCard(mains[i])
 }
