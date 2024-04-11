@@ -3,7 +3,7 @@ function CreatMenu(){
     return`
     <nav> 
         <ul> 
-            <li><a href="./index.html" class="sublinhado"><img id="logo" src="./Page/Others/Logo/League of legends.svg"> </a></li> 
+            <li><a href="./index.html" class=""><img id="logo" src="./Page/Others/Logo/League of legends.svg"> </a></li> 
             <li><a target="_blank" href="https://www.op.gg/summoners/br/FireguiQueen" alt="perfil no op.gg" class="infogeral">op.gg</a></li>
         </ul>
 
