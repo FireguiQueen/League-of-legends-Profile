@@ -30,19 +30,22 @@ header
     margin-bottom: 100px;
 }
 
-header nav{ 
+header nav
+{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header nav ul{
+header nav ul
+{
     display: flex;
     align-items: center;
     gap: 32px; 
 }
 
-header nav li{
+header nav li
+{
     list-style: none;
     font-size: 25px;
 }
@@ -142,7 +145,7 @@ header a
 
 
 /* Animações */
-header a::after{
+header a.sublinhado::after{
     content: '';
     width: 0%;
     height: 2px;
